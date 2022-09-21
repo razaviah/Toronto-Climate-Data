@@ -48,8 +48,8 @@ The Shell script will call the Python Script to finish the Python work.
 ### 1. How to download data?
 
 Use the following utility to download data:
-• wget (GNU / Linux Operating systems)
-• Homebrew (OS X - Apple) http://brew.sh/
+* wget (GNU / Linux Operating systems)
+* Homebrew (OS X - Apple) http://brew.sh/
 
 Example to download all available hourly data for Yellowknife A, from 1998 to 2008, in .csv format.
 
@@ -58,15 +58,15 @@ do wget  --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_
 done;
 
 WHERE:
-• year = change values in command line {1998..2008}
-• month = 2
-• format= [csv|xml]: the format output
-• timeframe = 1: for hourly data
-• timeframe = 2: for daily data
-• timeframe = 3 for monthly data
-• Day: the value of the "day" variable is not used and can be an arbitrary value
-• For another station, change the value of the variable stationID
-• For the data in XML format, change the value of the variable format to xml in the URL.
+* year = change values in command line {1998..2008}
+* month = 2
+* format= [csv|xml]: the format output
+* timeframe = 1: for hourly data
+* timeframe = 2: for daily data
+* timeframe = 3 for monthly data
+* Day: the value of the "day" variable is not used and can be an arbitrary value
+* For another station, change the value of the variable stationID
+* For the data in XML format, change the value of the variable format to xml in the URL.
 
 ### 2. How to compose the shell script?
 The shell need to include the following specifications:
