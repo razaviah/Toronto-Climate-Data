@@ -47,7 +47,8 @@ RC1=$?
 if [ ${RC1} != 0 ]; then
 	echo "DOWNLOAD DATA FAILED"
 	echo "[ERROR:] RETURN CODE:  ${RC1}"
-	echo "[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE."
+	echo -n "[ERROR:] RETURN CODE'S FURTHER EXPLANATION: " && errno ${RC1}
+	echo "[ERROR:] REFER TO THE LOG FOR THE REASON OF FAILURE."
 	exit 1
 fi
 ###${RC1} = 0 means successful running the script
