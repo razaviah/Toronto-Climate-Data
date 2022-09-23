@@ -63,10 +63,11 @@ RC1=$?
 if [ ${RC1} != 0 ]; then
 	echo "PYTHON RUNNING FAILED"
 	echo "[ERROR:] RETURN CODE:  ${RC1}"
+	echo -n "[ERROR:] RETURN CODE'S FURTHER EXPLANATION: " && errno ${RC1}
 	echo "[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE."
 	exit 1
 fi
 
-echo "PROGRAM SUCCEEDED"
+echo "PROGRAM SUCCEEDED!"
 
 exit 0 
