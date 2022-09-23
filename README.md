@@ -1,4 +1,4 @@
-# Mini Project--Toronto Climate Data
+# Toronto Climate Data--Linux Mini Project
 WCD Lab 1
 Linux Lab, WeCloudData, Data Engineering Diploma Program
 
