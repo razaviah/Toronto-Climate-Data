@@ -18,6 +18,7 @@ filenametime1=$(date +"%m%d%Y%H%M%S")
 filenametime2=$(date +"%Y-%m-%d %H:%M:%S")
 #########################################################
 # Part 2: SET VARIABLES 
+# These variables should be changed to work in another system
 export BASE_FOLDER='/home/wcd'
 export SCRIPTS_FOLDER='/home/wcd/labs/lab1/scripts'
 export INPUT_FOLDER='/home/wcd/labs/lab1/input'
@@ -49,7 +50,8 @@ if [ ${RC1} != 0 ]; then
 	echo "[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE."
 	exit 1
 fi
-###${RC1} = 0 means sucessful running the script
+###${RC1} = 0 means successful running the script
+###${RC1} != 0 means unsuccessful running and the error can be determined via "errno ${RC1}"
 #########################################################
 # PART 5: RUN PYTHON
 echo "Start to run Python Script"
