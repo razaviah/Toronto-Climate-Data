@@ -1,6 +1,6 @@
 # Toronto Climate Data--Linux Mini Project
-WCD Lab 1
-Linux Lab, WeCloudData, Data Engineering Diploma Program
+
+Linux Lab, Data Engineering Diploma Program, WeCloudData
 
 Content developed by: WeCloudData Academy
 
@@ -80,4 +80,4 @@ The shell need to include the following specifications:
 In the Exercise File, you will find a example how to compose a shell script.
 
 ### 3. How to concatenate data into one file with python?
-You can use your own way, but use glob and pandas can finish the job. 
+You can use your own way, but using glob and pandas can finish the job. 
