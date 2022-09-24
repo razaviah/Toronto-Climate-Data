@@ -39,6 +39,7 @@ exec > >(tee ${LOG_FILE}) 2>&1
 # PART 5: DOWNLOAD DATA
 echo "Start download data"
 
+# We only need the data of Station ID = 48549.
 for year in {2020..2022}; # or use (seq 2019 2022)
 do wget -N --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=${year}&Month=2&Day=14&timeframe=1&submit= Download+Data" -O ${INPUT_FOLDER}/${year}.csv;
 done;
