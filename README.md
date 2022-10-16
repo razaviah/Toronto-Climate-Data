@@ -22,9 +22,9 @@ But this time, you are going to use a data engineer way to download some data fr
 
 You need to submit a shell script, a python script and all_years.csv to the github repository you created for the lab.
 
-    Shell script: You will use the shell script to control every operation, including data downloading, log setting, python script running.
-    Python script: While the Python script is used to concatenate all the data into one file.
-    all_years.csv: This is the output file you concatenate all the downloads. 
+* ***Shell script***: You will use the shell script to control every operation, including data downloading, log setting, python script running.
+* ***Python script***: While the Python script is used to concatenate all the data into one file.
+* ***all_years.csv***: This is the output file you concatenate all the downloads. 
 
 ## 4. Program Procedure
 
