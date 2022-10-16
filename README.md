@@ -35,13 +35,14 @@ You need to submit a shell script, a python script and all_years.csv to the gith
 5. create a repository in github, and upload your file to the repo with git. 
 
 The Shell script will call the Python Script to finish the Python work.
+
 ## 5. Specification Detail
 
-    We only need the data of Station ID = 48549.
-    The year range of the data we want is from 2020 to 2022.
-    We only want the data in February.
-    The data will be downloaded in hourly format.
-    The output file will be named as all_years.csv. 
+* We only need the data of Station ID = 48549.
+* The year range of the data we want is from 2020 to 2022.
+* We only want the data in February.
+* The data will be downloaded in hourly format.
+* The output file will be named as all_years.csv. 
 
 ## 6. Technical Instruction
 
