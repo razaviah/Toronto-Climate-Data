@@ -28,11 +28,11 @@ You need to submit a shell script, a python script and all_years.csv to the gith
 
 ## 4. Program Procedure
 
-    download data with shell command
-    concatenate data to one file with the python script
-    save output file in the python script
-    print out SUCCESS with shell command.
-    create a repository in github, and upload your file to the repo with git. 
+1. download data with shell command
+2. concatenate data to one file with the python script
+3. save output file in the python script
+4. print out SUCCESS with shell command.
+5. create a repository in github, and upload your file to the repo with git. 
 
 The Shell script will call the Python Script to finish the Python work.
 ## 5. Specification Detail
