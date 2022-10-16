@@ -14,9 +14,9 @@ Usually, when we want to download the weather data manually, we go to https://cl
 But this time, you are going to use a data engineer way to download some data from Canada Climate website, and output one file.
 ## 2. Business Requirements
 
-    Please download the data from Canadian Climate.
-    Please concatenate the downloaded files into one final csv file, called all_years.csv. This is the output of the lab.
-    Please upload your scripts and final csv file all_years.csv to the repository you created in the Github. 
+* Please download the data from Canadian Climate.
+* Please concatenate the downloaded files into one final csv file, called all_years.csv. This is the output of the lab.
+* Please upload your scripts and final csv file all_years.csv to the repository you created in the Github. 
 
 ## 3. Deliverable
 
