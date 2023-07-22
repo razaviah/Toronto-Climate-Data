@@ -1,9 +1,5 @@
 # Toronto Climate Data -- Linux Mini Project
 
-Linux Lab, Data Engineering Diploma Program, WeCloudData
-
-Content developed by: WeCloudData Academy
-
 
 ## 1. Business Scenario
 
